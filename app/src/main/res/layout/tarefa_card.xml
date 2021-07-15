@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tarefaDescr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tarefaData"
+            android:layout_alignStart="@+id/tarefaData"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/descricao"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tarefaData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tarefaStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tarefaDescr"
+            android:layout_alignStart="@+id/tarefaDescr"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="32dp"
+            android:text="status" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
